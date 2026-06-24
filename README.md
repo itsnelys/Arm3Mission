@@ -1,98 +1,70 @@
-# Arma 3 Missions
+# Arm3Mission
 
-## FR
+[Français](#français) | [English](#english)
 
-Depot de missions de test pour *Arma 3*.
+---
 
-Ces missions servent a verifier rapidement les modules OPA dans l'editeur Eden, principalement sur la carte VR.
+## Français
 
-### Organisation
+### Présentation
+Arm3Mission contient des missions de test pour Arma 3. Elles servent a verifier rapidement des modules OPA dans l'editeur Eden, principalement sur la carte VR. Le depot accompagne les mods Arma proprietaires et leurs scenarios de validation.
 
-```text
-missions/
-  breaching.VR/
-  hazmat.VR/
-```
+### Fonctionnalités
+- Missions de test reaching.VR et hazmat.VR.
+- Validation des modules OPA_breaching, OPA_attachment et OPA_chemical.
+- Organisation simple pour copie dans le profil Arma 3.
+- Depot de travail pour tests internes et experimentations.
 
-Chaque dossier correspond a une mission Arma 3 et peut etre copie directement dans le dossier `missions` du profil Arma.
-
-### Missions
-
-| Mission | Carte | Usage |
-| --- | --- | --- |
-| `breaching.VR` | VR | Mission de test pour `OPA_breaching` et `OPA_attachment`. |
-| `hazmat.VR` | VR | Mission de test pour `OPA_chemical`. |
+### Installation
+Copie le dossier de mission voulu depuis missions/ vers le dossier de missions de ton profil Arma 3.
 
 ### Utilisation
+Ouvre la mission dans l'editeur Eden, charge les mods OPA requis, puis lance les tests correspondant au module concerne.
 
-1. Copie le dossier d'une mission depuis `missions/`.
-2. Colle-le dans le dossier de missions du profil Arma 3.
-3. Ouvre la mission dans l'editeur Eden.
-4. Charge les mods OPA requis.
-5. Lance les tests selon le module concerne.
-
-### Mods testes
-
-| Mission | Mods |
-| --- | --- |
-| `breaching.VR` | `OPA_breaching`, `OPA_attachment` |
-| `hazmat.VR` | `OPA_chemical` |
-
-### Note de patch 0.1
-
-- Premiere version documentee.
-- Ajout des missions de test `breaching.VR` et `hazmat.VR`.
-- Organisation simple pour copie directe dans le profil Arma 3.
-
----
-
-## EN
-
-Test mission repository for *Arma 3*.
-
-These missions are used to quickly verify OPA modules in the Eden editor, mainly on the VR map.
-
-### Organization
+### Structure du dépôt
 
 ```text
 missions/
   breaching.VR/
   hazmat.VR/
+README.md
+LICENSE
 ```
 
-Each folder is an Arma 3 mission and can be copied directly into the profile `missions` folder.
-
-### Missions
-
-| Mission | Map | Usage |
-| --- | --- | --- |
-| `breaching.VR` | VR | Test mission for `OPA_breaching` and `OPA_attachment`. |
-| `hazmat.VR` | VR | Test mission for `OPA_chemical`. |
-
-### Usage
-
-1. Copy a mission folder from `missions/`.
-2. Paste it into the Arma 3 profile missions folder.
-3. Open the mission in the Eden editor.
-4. Load the required OPA mods.
-5. Run tests for the relevant module.
-
-### Tested Mods
-
-| Mission | Mods |
-| --- | --- |
-| `breaching.VR` | `OPA_breaching`, `OPA_attachment` |
-| `hazmat.VR` | `OPA_chemical` |
-
-### Patch Note 0.1
-
-- First documented release.
-- Added `breaching.VR` and `hazmat.VR` test missions.
-- Simple organization for direct copy into the Arma 3 profile.
+### Licence
+Ce projet est proprietaire. Copyright © 2026 itsnelys. Tous droits reserves. Aucune copie, modification, redistribution ou reutilisation n'est autorisee sans permission ecrite.
 
 ---
 
-## License & Author
+## English
 
-Provided by **soraanoir/sundae https://github.com/soraanoir**.  
-Free to use and modify, provided that credit is given to the author.
+### Overview
+Arm3Mission contains Arma 3 test missions. They are used to quickly verify OPA modules in the Eden editor, mainly on the VR map. The repository supports proprietary Arma mods and their validation scenarios.
+
+### Features
+- Test missions reaching.VR and hazmat.VR.
+- Validation for OPA_breaching, OPA_attachment and OPA_chemical.
+- Simple organization for copying into an Arma 3 profile.
+- Working repository for internal tests and experiments.
+
+### Installation
+Copy the desired mission folder from missions/ into your Arma 3 profile missions folder.
+
+### Usage
+Open the mission in the Eden editor, load the required OPA mods, then run the tests for the relevant module.
+
+### Repository Structure
+
+```text
+missions/
+  breaching.VR/
+  hazmat.VR/
+README.md
+LICENSE
+```
+
+### Credits / Attribution
+Existing attribution retained from the previous README: Provided by **soraanoir/sundae https://github.com/soraanoir**.
+
+### License
+This project is proprietary. Copyright © 2026 itsnelys. All rights reserved. No copy, modification, redistribution or reuse is allowed without written permission.
