@@ -1,9 +1,9 @@
 # hazmat.VR
 
-Mission de test Arma 3 pour le mod OPA.
+Arma 3 test mission for the OPA mod.
 
-## Objectif
+## Purpose
 
-Cette mission sert a verifier les comportements lies a :
+This mission verifies behavior related to:
 
 - `OPA_chemical`

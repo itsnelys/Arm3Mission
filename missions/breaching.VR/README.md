@@ -1,16 +1,16 @@
 # breaching.VR
 
-Mission de test Arma 3 pour les mods OPA.
+Arma 3 test mission for OPA mods.
 
-## Objectif
+## Purpose
 
-Cette mission sert a verifier les comportements lies a :
+This mission verifies behavior related to:
 
 - `OPA_breaching`
 - `OPA_attachment`
 
-## Contenu
+## Contents
 
-- Scene de test sur VR.
-- Equipement de breaching.
-- Batiments et vehicules utiles aux tests rapides dans Eden.
+- VR test scene.
+- Breaching equipment.
+- Buildings and vehicles useful for quick Eden tests.
