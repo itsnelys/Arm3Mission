@@ -1,5 +1,11 @@
 # Arm3Mission
 
+
+<p align="center">
+  <img src="https://img.shields.io/badge/%F0%9F%8E%AE-Arma%203-755B2F?style=for-the-badge" alt="🎮 Arma 3">
+  <img src="https://img.shields.io/badge/%F0%9F%97%BA%EF%B8%8F-Mission%20Content-2878B5?style=for-the-badge" alt="🗺️ Mission Content">
+  <img src="https://img.shields.io/badge/%F0%9F%94%92-Proprietary-555?style=for-the-badge" alt="🔒 Proprietary">
+</p>
 ### Overview
 Arm3Mission contains Arma 3 test missions. They are used to quickly verify OPA modules in the Eden editor, mainly on the VR map. The repository supports proprietary Arma mods and their validation scenarios.
 
